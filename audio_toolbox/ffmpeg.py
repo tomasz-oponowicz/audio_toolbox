@@ -1,5 +1,4 @@
-from tools import common
-
+from . import common
 
 def transcode(input, output):
     # -loglevel error: show errors only
