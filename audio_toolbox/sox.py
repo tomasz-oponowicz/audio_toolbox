@@ -95,12 +95,12 @@ def adjust_pitch(input, output, semitone):
         semitone=semitone
     ))
 
-def remove_silence(input, output, min_duration_in_sec=0.1, threshold=0.5):
+def remove_silence(input, output, min_duration_sec=0.1, threshold=0.5):
     common.run_in_foreground("{bin} {input} {output} silence -l 1 {duration} {threshold}% -1 {duration} {threshold}%".format(
         bin=BIN,
         input=input,
         output=output,
-        duration=min_duration_in_sec,
+        duration=min_duration_sec,
         threshold=threshold
     ))
 
