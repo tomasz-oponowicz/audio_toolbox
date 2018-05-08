@@ -10,5 +10,4 @@ setup(name='audio_toolbox',
       license='MIT',
       classifiers=[
         'Programming Language :: Python :: 3'
-      ],
-      python_requires='>=3')
+      ])
