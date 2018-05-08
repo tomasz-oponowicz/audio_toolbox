@@ -8,3 +8,6 @@ MANIFEST
 
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
+
+# Sublime workspace files
+*.sublime-workspace
