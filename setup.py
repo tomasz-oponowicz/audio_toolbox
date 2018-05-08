@@ -1,11 +1,14 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(name='audio_toolbox',
+      packages=['audio_toolbox'],
       version='0.1',
       description='Handy wrapper around sox and ffmpeg',
-      url='https://github.com/tomasz-oponowicz/audio_toolbox',
       author='Tomasz Oponowicz',
       author_email='tomasz@zaxo.biz',
+      url='https://github.com/tomasz-oponowicz/audio_toolbox',
       license='MIT',
-      packages=['audio_toolbox'],
-      zip_safe=False)
+      classifiers=[
+        'Programming Language :: Python :: 3'
+      ],
+      python_requires='>=3')
