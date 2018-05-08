@@ -3,6 +3,7 @@
 
 # Setuptools distribution files.
 /dist/
+/build/
 MANIFEST
 
 # Python egg metadata, regenerated from source files by setuptools.

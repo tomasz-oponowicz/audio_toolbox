@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='audio_toolbox',
       packages=['audio_toolbox'],
@@ -10,4 +10,5 @@ setup(name='audio_toolbox',
       license='MIT',
       classifiers=[
         'Programming Language :: Python :: 3'
-      ])
+      ],
+      python_requires='>=3')
