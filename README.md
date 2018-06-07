@@ -6,7 +6,8 @@ Handy wrapper around sox and ffmpeg.
 
 ### 0.2
 
-* Add missing routines
+* Added missing routines
+* Improved build scripts
 
 ### 0.1
 
