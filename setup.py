@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='audio_toolbox',
       packages=['audio_toolbox'],
-      version='0.1',
+      version='0.2',
       description='Handy wrapper around sox and ffmpeg',
       author='Tomasz Oponowicz',
       author_email='tomasz@zaxo.biz',
